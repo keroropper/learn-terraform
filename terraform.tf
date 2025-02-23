@@ -3,6 +3,7 @@
 
 terraform {
 
+  # コメント追加
   # cloud {
   #   organization = "welcome-board"
 
