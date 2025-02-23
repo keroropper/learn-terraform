@@ -3,14 +3,13 @@
 
 terraform {
 
-  # コメント追加
-  # cloud {
-  #   organization = "welcome-board"
+  cloud {
+    organization = "welcome-board"
 
-  #   workspaces {
-  #     name = "learn-terraform"
-  #   }
-  # }
+    workspaces {
+      name = "learn-terraform"
+    }
+  }
 
   required_providers {
     aws = {
